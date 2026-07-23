@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/shop"
+        android:title="Create Profile"
+        android:icon="@drawable/ic_baseline_add_24"
+        />
+
+    <item android:id="@+id/showtask"
+        android:icon="@drawable/baseline_directions_car_filled_24"
+        android:title="Garage"/>
+
+    <item android:id="@+id/feedback"
+        android:title="Show Profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+
+    <item android:id="@+id/guide"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="Guide And Support"/>
+
+    <item android:id="@+id/chatbot"
+        android:icon="@drawable/chat"
+        android:title="ChatBot"/>
+</menu>
