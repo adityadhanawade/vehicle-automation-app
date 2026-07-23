@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Vehicle App</string>
+    <string name="map_key" translatable="false">AIzaSyAfJCDYO5r_qBIHzLoaJZ77oe3CoLPRV7k</string>
+    <string name="first">1.Services – The app allows users to book vehicle services, track status, make payments, and manage service history.</string>
+
+    <string name="second">2.User Account – Users must provide accurate information and keep login credentials secure.</string>
+
+    <string name="third">3.Payments And Refunds – Transactions are processed securely; refund policies (if any) apply.</string>
+
+    <string name="fourth">4.Service Providers – We connect users with service providers but do not guarantee their services.</string>
+
+    <string name="fifth">5.User Conduct – Misuse, false information, or illegal activities are prohibited.</string>
+
+    <string name="six">6.Privacy – User data is handled as per our Privacy Policy [link]..</string>
+
+    <string name="seven">7,Liability – We are not responsible for service interruptions or third-party actions..</string>
+
+    <string name="eight">8.Changes – Terms may be updated; continued use means acceptance.</string>
+
+    <string name="nine">9.Contact – Reach us at avishkarkedar10@gmail.com for any queries..</string>
+
+
+
+</resources>
