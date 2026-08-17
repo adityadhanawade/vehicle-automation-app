@@ -4,6 +4,15 @@ plugins {
     id 'com.google.gms.google-services'
 }
 
+// Loads MAPS_API_KEY from local.properties (gitignored) so the real key
+// never gets committed. Copy local.properties.example -> local.properties
+// and fill in your own key to build this project.
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withInputStream { localProperties.load(it) }
+}
+
 android {
     namespace 'com.example.vehical_auto_app'
     compileSdk 35
@@ -14,6 +23,8 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
+
+        manifestPlaceholders = [MAPS_API_KEY: localProperties.getProperty('MAPS_API_KEY', '')]
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

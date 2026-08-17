@@ -1,0 +1,9 @@
+# Copy this file to local.properties (already gitignored) and fill in
+# your own values. local.properties is never committed.
+
+# sdk.dir=/path/to/your/Android/sdk
+
+# Google Maps API key (used for com.google.android.geo.API_KEY in the manifest).
+# Get one at https://console.cloud.google.com/apis/credentials and restrict it
+# to this app's package name + SHA-1 fingerprint, scoped to Maps SDK for Android.
+MAPS_API_KEY=your_api_key_here

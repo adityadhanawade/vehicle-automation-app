@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Vehicle App</string>
-    <string name="map_key" translatable="false">***REMOVED-EXPOSED-API-KEY***</string>
     <string name="first">1.Services – The app allows users to book vehicle services, track status, make payments, and manage service history.</string>
 
     <string name="second">2.User Account – Users must provide accurate information and keep login credentials secure.</string>
